@@ -5,3 +5,6 @@ app=Flask(__name__)
 def hello():
     return "Hello World"
 
+@app.route('/greet')
+def greet():
+    return "How are you?"
