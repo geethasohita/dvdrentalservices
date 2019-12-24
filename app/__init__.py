@@ -7,4 +7,4 @@ def hello():
 
 @app.route('/greet')
 def greet():
-    return "How are you?"
+    return "how are you doing"
